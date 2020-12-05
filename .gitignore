@@ -11,5 +11,6 @@ local_settings.py
 db.sqlite3
 media/
 static/
+secret.py
 
 # End of https://www.toptal.com/developers/gitignore/api/django

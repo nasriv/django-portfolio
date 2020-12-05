@@ -1,6 +1,12 @@
 from django.db import models
 
-class Projects(models.Models):
-    image = models.ImageField(upload_to='images/')
+class Project(models.Model):
+    # by default Django will create auto-increment id
+    title = models.CharField(max_length=150)
+    image = models.ImageField(upload_to='images/', blank=True)
     descripton = models.TextField(max_length=255)
-    link = models.TextField(max_length=255)
+    url = models.CharField(max_length=255, blank=True)
+    date_built = models.DateField()
+
+    def __str__(self):
+        return self.title
