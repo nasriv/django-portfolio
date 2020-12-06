@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'projects.apps.ProjectsConfig'
+    'projects.apps.ProjectsConfig',
+    'skills.apps.SkillsConfig'
 ]
 
 MIDDLEWARE = [
@@ -125,8 +125,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+# static URL name
+
 STATIC_ROOT = BASE_DIR / 'static'
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'portfolio/static')]
+# where to create static folder file path from collectstatic
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'media')]
+# tuple of additional static file paths to search
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
