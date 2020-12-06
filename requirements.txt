@@ -1,9 +1,33 @@
-asgiref @ file:///tmp/build/80754af9/asgiref_1605055780383/work
-certifi==2020.11.8
-Django @ file:///tmp/build/80754af9/django_1606860386887/work
-olefile==0.46
-Pillow @ file:///C:/ci/pillow_1603823068645/work
-psycopg2 @ file:///C:/ci/psycopg2_1594305172475/work
-pytz @ file:///tmp/build/80754af9/pytz_1606604771399/work
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
-wincertstore==0.2
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+asgiref=3.3.1=pyhd3eb1b0_0
+ca-certificates=2020.10.14=0
+certifi=2020.11.8=py38haa95532_0
+django=3.1.4=pyhd3eb1b0_0
+freetype=2.10.4=hd328e21_0
+git=2.23.0=h6bb4b03_0
+jpeg=9b=hb83a4c4_2
+krb5=1.17.1=hc04afaa_0
+libpng=1.6.37=h2a8f88b_0
+libpq=12.2=h3235a2c_0
+libtiff=4.1.0=h56a325e_1
+lz4-c=1.9.2=hf4a77e7_3
+olefile=0.46=py_0
+openssl=1.1.1h=he774522_0
+pillow=8.0.1=py38h4fa10fc_0
+pip=20.3=py38haa95532_0
+psycopg2=2.8.5=py38h7a1dbc1_0
+python=3.8.5=h5fd99cc_1
+pytz=2020.4=pyhd3eb1b0_0
+setuptools=50.3.2=py38haa95532_2
+sqlite=3.33.0=h2a8f88b_0
+sqlparse=0.4.1=py_0
+tk=8.6.10=he774522_0
+vc=14.1=h0510ff6_4
+vs2015_runtime=14.16.27012=hf0eaf9b_3
+wheel=0.35.1=pyhd3eb1b0_0
+wincertstore=0.2=py38_0
+xz=5.2.5=h62dcd97_0
+zlib=1.2.11=h62dcd97_4
+zstd=1.4.5=h04227a9_0
