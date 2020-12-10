@@ -12,6 +12,6 @@ db.sqlite3
 media/
 static/
 secret.py
-djang/
+/djang
 
 # End of https://www.toptal.com/developers/gitignore/api/django
