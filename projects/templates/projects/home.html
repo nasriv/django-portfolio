@@ -2,18 +2,17 @@
 <html lang="en">
 
 <head>
-  <!-- {% load static %} -->
+  {% load static %}
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vincent Nasri</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="#fontawesome" />
-  <link rel="stylesheet" href="/media/assets/css/main.css" />
+  <!-- <link rel="stylesheet" href="#fontawesome" /> -->
+  <link rel="stylesheet" href="media/assets/css/main.css">
 </head>
 
 <body>
   <header>
-
     <div class="menu-toggler">
       <div class="bar half start"></div>
       <div class="bar"></div>
@@ -50,7 +49,7 @@
   <section class="about" id="about">
     <div class="container">
       <div class="profile-img">
-        <img src="media/images/main.jpg" alt="" />
+        <img src="{% static '/images/main.jpg' %}" alt="" />
       </div>
       <div class="about-details">
         <div class="about-heading">
@@ -201,10 +200,10 @@
 
 
   <!-- Javascript files -->
-  <script type="text/text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script type="text/text/javascript" src="{% static '/assets/js/main.js' %}"></script>
-
+  <script type="text/text/javascript" src="{% static 'assets/js/main.js' %}"></script>
+  
 </body>
 
 </html>
