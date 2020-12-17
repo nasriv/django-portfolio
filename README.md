@@ -1,3 +1,3 @@
 # Personal portfolio #
 
-Django/Python framework to be hosted on raspberry pi using heroku server
+Django/Python framework to be hosted using heroku server
